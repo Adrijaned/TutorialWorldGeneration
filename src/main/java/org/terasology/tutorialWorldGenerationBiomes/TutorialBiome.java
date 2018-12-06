@@ -15,7 +15,7 @@
  */
 package org.terasology.tutorialWorldGenerationBiomes;
 
-import org.terasology.world.biomes.Biome;
+import org.terasology.biomesAPI.Biome;
 
 public enum TutorialBiome implements Biome {
     LAND("Land"), WATER("Water"), SKY("Sky");

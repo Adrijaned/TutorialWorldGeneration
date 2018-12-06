@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.terasology.tutorialWorldGenerationBiomes;
-
-import org.terasology.world.biomes.BiomeRegistrator;
-import org.terasology.world.biomes.BiomeRegistry;
-
-public class TutorialBiomes implements BiomeRegistrator {
-    @Override
-    public void registerBiomes(BiomeRegistry registry) {
-        for (TutorialBiome biome : TutorialBiome.values()) {
-            registry.registerBiome(biome);
-        }
-    }
-}
+//package org.terasology.tutorialWorldGenerationBiomes;
+//
+//import org.terasology.biomesAPI.BiomeRegistrator;
+//import org.terasology.biomesAPI.BiomeRegistry;
+//
+//public class TutorialBiomes implements BiomeRegistrator {
+//    @Override
+//    public void registerBiomes(BiomeRegistry registry) {
+//        for (TutorialBiome biome : TutorialBiome.values()) {
+//            registry.registerBiome(biome);
+//        }
+//    }
+//}
